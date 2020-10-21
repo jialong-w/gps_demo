@@ -17,8 +17,8 @@ setup_requirements = [ ]
 test_requirements = [ ]
 
 setup(
-    author="Jialong Weng",
-    author_email='wngjia001@myuct.ac.za',
+    author="Jialong Weng, Veronique Reagon",
+    author_email='wngjia001@myuct.ac.za, rgnver001@myuct.ac.za',
     python_requires='>=3.5',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -26,7 +26,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
