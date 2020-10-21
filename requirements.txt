@@ -10,4 +10,7 @@ twine==3.2.0
 Click==7.1.2
 pytest==6.1.1
 pytest-runner==5.2
+pyserial==3.4
+pynmea2==1.15.0
+haversine==2.3.0
 gps_api==0.1.4
