@@ -13,4 +13,4 @@ pytest-runner==5.2
 pyserial==3.4
 pynmea2==1.15.0
 haversine==2.3.0
-gps_api==0.1.4
+gps_api==0.1.6
