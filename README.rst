@@ -21,7 +21,7 @@ This demonstrator application showcases the various functions that can be achiev
 User Documentation
 --------
 
-See docs/getting_started
+See .. _getting_started: https://github.com/jialong-w/gps_demo/blob/master/docs/getting_started.md
 
 
 Credits
