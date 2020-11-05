@@ -22,9 +22,9 @@ This demonstrator application showcases the various functions that can be achiev
 User Documentation
 --------
 
-See `getting_started.md`_
+See getting_started.md_
 
-.. _`getting_started`: https://github.com/jialong-w/gps_demo/blob/master/docs/getting_started.md
+.. _getting_started: https://github.com/jialong-w/gps_demo/blob/master/docs/getting_started.md
 
 
 Credits
