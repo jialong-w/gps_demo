@@ -1,4 +1,6 @@
-"""Main module."""
+"""
+Demonstrator appplication for GPS API
+"""
 import sys
 import gps_api
 
@@ -9,6 +11,11 @@ GPS = None
 destination = ()
 
 def welcome():
+    """
+    welcome message and prompt the user to enter the user name and
+    the port name to which the GPS module is attached on the computer
+    """
+
     global name, port
     #put code here to call welcome and menu methods
     print ("__________________________________________________")
@@ -18,18 +25,27 @@ def welcome():
     port = input ("Please enter the port you will be using:\n")
 
 def menu():
-    print ("1  - View current location")
-    print ("2  - Set destination")
-    print ("3  - View estimated distance to destination")
-    print ("4  - See your estimated time of arrival at your destination")
-    print ("5  - View current speed")
-    print ("6  - Request your altitude")
-    print ("7  - Request your latitude")
-    print ("8  - Request your longitude")
-    print ("9  - Request date and UTC time")
+    """
+    menu to display options of various operation
+    """
+
+    print ("1 - View current location")
+    print ("2 - Set destination")
+    print ("3 - View estimated distance to destination")
+    print ("4 - See your estimated time of arrival at your destination")
+    print ("5 - View current speed")
+    print ("6 - Request your altitude")
+    print ("7 - Request your latitude")
+    print ("8 - Request your longitude")
+    print ("9 - Request date and UTC time")
     print ("0 - Exit the GPS demonstrator application")
 
 def operation():
+    """
+    based on the input option, the corresponding API functions are called to
+    perform the action and get the result
+    """
+
     option = input ("Please select an option:\n")
 
     if option == "1":
@@ -84,12 +100,19 @@ def operation():
         print("Invalid option.")
 
 def set_destination():
+    """
+    set a destination location
+    """
+
     global dest_latitude, dest_longitude, destination
     dest_latitude = float(input("Please enter in your destination latitude (-90 to 90):\n"))
     dest_longitude = float(input ("Please enter in your destination longitude (-180 to 180):\n"))
     destination = (dest_latitude, dest_longitude)
 
 if __name__ == "__main__":
+    """
+    main function
+    """
     try:
         welcome()
         GPS = gps_api.GPS(port)
