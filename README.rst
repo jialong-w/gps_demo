@@ -22,7 +22,7 @@ This demonstrator application showcases the various functions that can be achiev
 User Documentation
 --------
 
-See 'Getting Started'_
+See `Getting Started`_
 
 .. _`Getting Started`: https://github.com/jialong-w/gps_demo/blob/master/docs/getting_started.md
 
