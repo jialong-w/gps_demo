@@ -3,9 +3,6 @@ gps_demo
 ========
 
 
-.. image:: https://img.shields.io/pypi/v/gps_demo.svg
-        :target: https://pypi.python.org/pypi/gps_demo
-
 .. image:: https://img.shields.io/travis/jialong-w/gps_demo.svg
         :target: https://travis-ci.com/jialong-w/gps_demo
 
