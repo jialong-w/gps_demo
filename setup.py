@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', ]
+requirements = ['pyserial>=3.4', 'pynmea2>=1.15.0', 'haversine>=2.3.0', 'gps_api>=0.1.6']
 
 setup_requirements = [ ]
 
@@ -36,7 +36,7 @@ setup(
             'gps_demo=gps_demo.cli:main',
         ],
     },
-    install_requires=['pyserial', 'pynmea2', 'haversine', 'gps_api']
+    install_requires=requirements
     license="MIT license",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
