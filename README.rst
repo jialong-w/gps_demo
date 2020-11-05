@@ -15,18 +15,17 @@ gps_demo
 
 
 
-
-Demonstrator for gps_api
+This demonstrator application showcases the various functions that can be achieved with the gps_api package.
 
 
 * Free software: MIT license
-* Documentation: https://gps-demo.readthedocs.io.
 
 
-Features
+User Documentation
 --------
 
-* TODO
+See docs/getting_started
+
 
 Credits
 -------
