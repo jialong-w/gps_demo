@@ -15,13 +15,16 @@ gps_demo
 This demonstrator application showcases the various functions that can be achieved with the gps_api package.
 
 
-* Free software: MIT license
+* Free software: `MIT license`_
+.. _`MIT license`: https://github.com/jialong-w/gps_demo/blob/master/LICENSE
 
 
 User Documentation
 --------
 
-See .. _getting_started: https://github.com/jialong-w/gps_demo/blob/master/docs/getting_started.md
+See `getting_started.md`_
+
+.. _`getting_started`: https://github.com/jialong-w/gps_demo/blob/master/docs/getting_started.md
 
 
 Credits
