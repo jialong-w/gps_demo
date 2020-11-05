@@ -36,7 +36,7 @@ setup(
             'gps_demo=gps_demo.cli:main',
         ],
     },
-    install_requires=requirements,
+    install_requires=['pyserial', 'pynmea2', 'haversine', 'gps_api']
     license="MIT license",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
